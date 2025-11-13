@@ -18,8 +18,6 @@ section{
     padding: 80px 50px 15px;
 }
 h2{
-    width: 98px;
-    height: 16px;
     font-size: 16px;
     font-weight: 400;
     color: #DC780B;
@@ -28,8 +26,6 @@ h2{
     font-family: "Roboto", sans-serif;
 }
 .title{
-    width: 487px;
-    height: 112px;
     font-size: 32px;
     line-height: 50px;
     color: #150C01;
@@ -38,8 +34,6 @@ h2{
     font-family: "Philosopher", sans-serif
 }
 .text{
-    width: 486px;
-    height: 72px;
     font-size: 16px;
     line-height: 24px;
     color: #150C01;
@@ -60,6 +54,9 @@ button{
     }
     .pict,
     .content{
+        width: 100%;
+    }
+    img{
         width: 100%;
     }
 }
